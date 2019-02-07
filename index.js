@@ -10,7 +10,7 @@ const PORT = 8000;
 const multer = require('multer');
 const upload = multer({dest:'file-uploads'});
 
-app.post('/sendFile', upload.single('unsent-data'), (req, res) => {
+app.post('/sendFile', upload.single('unsent.csv'), (req, res) => {
     console.log(req.body);
     res.send("File uploaded");
     console.log("File uploaded");
