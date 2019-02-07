@@ -1,12 +1,5 @@
 # Dependency directories
 node_modules/
 
-# Files
-curl.txt
-data.csv
-data.json
-data.txt
-index_old.js
-
 # File upload folder
 file-uploads/
